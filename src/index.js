@@ -2,7 +2,7 @@ const https = require("https");
 const querystring = require("querystring");
 
 const _get = async url => {
-  return new Promise((resovle, reject) => {
+  return new Promise((resolve, reject) => {
     let responseData = "";
     const request = https.get(url, response => {
       response.on("data", chunk => {
@@ -15,7 +15,7 @@ const _get = async url => {
           const out = JSON.parse(responseData);
 
           if (response.statusCode === 200) {
-            resovle(out);
+            resolve(out);
           } else {
             reject(out);
           }
