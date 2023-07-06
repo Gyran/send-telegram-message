@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "np": "8.0.4"
+  },
+  "engines": {
+    "node": ">18"
   }
 }
