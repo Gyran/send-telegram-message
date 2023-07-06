@@ -2,7 +2,7 @@
   "name": "@gyran/send-telegram-message",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/index.mjs",
   "scripts": {
     "release": "np",
     "test": "exit 0"
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "np": "^3.1.0"
+    "np": "8.0.4"
   }
 }
